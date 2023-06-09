@@ -299,7 +299,7 @@ const styles = StyleSheet.create({
     paddingTop: 0,
   },
   priceInputContainer: {
-    // Add any styles specific to the price input container
+    // Add any styles specific to the price input container later
   },
   outsideTextInput: {
     position: 'absolute',
