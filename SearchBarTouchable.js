@@ -230,15 +230,6 @@ mainContainer: {
     marginBottom: 5,
     alignItems: 'center',
   },
-  searchIconContainer: {
-    // Add any styles specific to the search icon container
-  },
-  searchIcon: {
-    // Add any styles specific to the search icon
-  },
-  textInput: {
-    // Add any styles specific to the text input
-  },
   filterButtonContainer: {
     zIndex: 2,
     backgroundColor: COLORS.FilterColor,
@@ -296,9 +287,6 @@ mainContainer: {
     justifyContent: 'space-evenly',
     flexDirection: 'row',
     paddingTop: 0,
-  },
-  priceInputContainer: {
-    // Add any styles specific to the price input container later
   },
   outsideTextInput: {
     position: 'absolute',
