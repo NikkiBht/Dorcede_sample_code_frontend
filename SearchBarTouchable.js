@@ -215,8 +215,12 @@ export default function MainSearchbarTouchable(props) {
     </View>
   );
 }
-export const styles = StyleSheet.create({
-  mainContainer: {
+
+
+
+
+const styles = StyleSheet.create({
+mainContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     height: 35,
@@ -249,11 +253,6 @@ export const styles = StyleSheet.create({
     width: 35,
     height: 35,
   },
-});
-
-
-
-const styles = StyleSheet.create({
   modal: {
     margin: 0,
   },
