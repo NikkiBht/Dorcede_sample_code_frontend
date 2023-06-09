@@ -100,7 +100,6 @@ const PostBuyAndRentComponent = (props) => {
         post: post.id,
       }),
     };
-
     const url = serverUrl + createLikes;
     fetch(url, requestOptions)
       .then((response) => response.json())
@@ -160,7 +159,6 @@ const PostBuyAndRentComponent = (props) => {
       .catch((error) => {
         console.error('Error:', error);
       });
-
     const requestOptionsCreateDeletes = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -169,7 +167,6 @@ const PostBuyAndRentComponent = (props) => {
         post: post.id,
       }),
     };
-
     const url = serverUrl + createDeletes;
     fetch(url, requestOptionsCreateDeletes)
       .then((response) => response.json())
@@ -186,9 +183,7 @@ const PostBuyAndRentComponent = (props) => {
     const requestOptions = {
       method: 'GET',
     };
-
     const url = `${serverUrl}${postPicture}?post_id=${id}`;
-
     fetch(url, requestOptions)
       .then((response) => response.json())
       .then((data) => {
@@ -205,7 +200,6 @@ const PostBuyAndRentComponent = (props) => {
       method: 'GET',
     };
     const url = `${serverUrl}${getLikedPostsPerUserPerPost}?userId=${profileObject['id']}&postId=${id}`;
-
     fetch(url, requestOptions)
       .then((response) => response.json())
       .then((data) => {
